@@ -6,8 +6,10 @@
   >
     <template v-if="isShowExpandBtn">
       <span v-show="!isExpand" class="text-button">
-        展开
-        <i class="down-arrow" />
+        <slot name="down-arrow-content">
+          展开
+          <i class="down-arrow" />
+        </slot>
       </span>
     </template>
     <div class="content" ref="contentRef">
@@ -15,8 +17,10 @@
     </div>
     <template v-if="isShowExpandBtn">
       <span v-show="isExpand" class="text-button">
-        收起
-        <i class="up-arrow" />
+        <slot name="up-arrow-content">
+          收起
+          <i class="up-arrow" />
+        </slot>
       </span>
     </template>
   </div>
@@ -108,7 +112,6 @@ function handleExpandText() {
   clear: both;
   pointer-events: auto;
 
-  font-family: PingFang SC;
   font-weight: 500;
   font-size: 13px;
   line-height: 18px;
