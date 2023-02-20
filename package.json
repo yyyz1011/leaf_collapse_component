@@ -1,7 +1,7 @@
 {
   "name": "leaf-collapse-component-vue",
   "private": false,
-  "version": "2.0.1",
+  "version": "2.0.2",
   "type": "module",
   "keywords": [
     "vue3",
@@ -12,6 +12,13 @@
   "files": [
     "lib"
   ],
+  "author": {
+    "name": "YEZHOU",
+    "email": "1540032876@qq.com",
+    "url": "https://yyyz1011.github.io/"
+  },
+  "homepage": "https://yyyz1011.github.io/",
+  "repository": "https://github.com/yyyz1011/leaf_collapse_component.git",
   "main": "lib/leaf-collapse-textarea.umd.cjs",
   "module": "lib/leaf-collapse-textarea.js",
   "exports": {
@@ -25,7 +32,7 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "leaf_publish": "rm -rf lib && pnpm run build && npm publish",
+    "leaf_publish": "rm -rf lib && pnpm run build && npm publish"
   },
   "dependencies": {
     "vue": "^3.2.45"
