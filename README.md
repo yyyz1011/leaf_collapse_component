@@ -1,16 +1,25 @@
 # [vue3]展开收起组件
 
+# github链接
+
+> https://github.com/yyyz1011/leaf_collapse_component
+>
+> 欢迎反馈~
+
 # 使用
 
-```vue
-<template>
-  <collapseTextarea :content="content"></collapseTextarea>
-</template>
+```javascript
+// main.ts
+import LeafCollapseComponentVue from "leaf-collapse-component-vue";
+import "leaf-collapse-component-vue/lib/style.css";
 
-<script setup lang="ts">
-import collapseTextarea from "./components/collapse-textarea.vue";
-const content = "测试文案";
-</script>
+app.use(LeafCollapseComponentVue);
+```
+
+```vue
+const content = '测试'
+
+<leaf-collapse-textarea :content="content"></leaf-collapse-textarea>
 ```
 
 # 组件接收参数
