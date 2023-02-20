@@ -26,7 +26,7 @@
   </div>
 </template>
   
-<script setup lang="ts" name="CollapseTextarea">
+<script setup lang="ts" name="LeafCollapseTextarea">
 import { ref, Ref, computed, watch, nextTick } from "vue";
 
 const {

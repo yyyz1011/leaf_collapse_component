@@ -1,9 +1,9 @@
 import { App } from "vue";
-import CollapseTextarea from "./collapse-textarea";
+import LeafCollapseTextarea from "./leaf-collapse-textarea";
 
-export { CollapseTextarea };
+export { LeafCollapseTextarea };
 
-const components = [CollapseTextarea];
+const components = [LeafCollapseTextarea];
 
 const install = (App: App) => {
   components.forEach((item) => {
