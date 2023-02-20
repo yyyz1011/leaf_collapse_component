@@ -7,9 +7,7 @@
     <img src="https://img.shields.io/badge/license-MIT-red">
 </center>
 
-<center>
 简体中文 | [English](./README.md)
-</center>
 
 # 🔥 安装
 
