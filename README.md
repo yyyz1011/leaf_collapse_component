@@ -1,12 +1,27 @@
-# [vue3]展开收起组件
+<center>
+   <font size=6>leaf-collapse-component-vue</font> 
+</center>
 
-# github链接
+<center>
+    <img src="https://img.shields.io/badge/vue-%5E3.2.45-green">
+    <img src="https://img.shields.io/badge/license-MIT-red">
+</center>
 
-> https://github.com/yyyz1011/leaf_collapse_component
->
-> 欢迎反馈~
+<center>
+English | [简体中文](./README-zh_CN.md)
+</center>
 
-# 使用
+# 🔥 Install
+
+```shell
+# with npm
+npm install leaf-collapse-component-vue
+
+# with yarn
+yarn add leaf-collapse-component-vue
+```
+
+# 👍 Usage
 
 ```javascript
 // main.ts
@@ -17,12 +32,12 @@ app.use(LeafCollapseComponentVue);
 ```
 
 ```vue
-const content = '测试'
+const content = 'test content'
 
 <leaf-collapse-textarea :content="content"></leaf-collapse-textarea>
 ```
 
-# 组件接收参数
+# 📌 Props
 
 ```ts
 const {
@@ -31,9 +46,13 @@ const {
   defaultCollapseLine = 3,
   content,
 } = defineProps<{
-  width?: string | number; // 组件宽度
-  lineHeight?: number; // 行高
-  defaultCollapseLine?: number; // 默认展示行数
-  content: string; // 内容
+  width?: string | number; // component width
+  lineHeight?: number; // line-height
+  defaultCollapseLine?: number; // default line
+  content: string; // content
 }>();
 ```
+
+# 👐 issues
+
+> https://github.com/yyyz1011/leaf_collapse_component/issues
