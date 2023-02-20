@@ -1,11 +1,6 @@
-<center>
-   <font size=6>leaf-collapse-component-vue</font> 
-</center>
+# leaf-collapse-component-vue
 
-<center>
-    <img src="https://img.shields.io/badge/vue-%5E3.2.45-green">
-    <img src="https://img.shields.io/badge/license-MIT-red">
-</center>
+<img src="https://img.shields.io/badge/vue-%5E3.2.45-green">
 
 简体中文 | [English](./README.md)
 
